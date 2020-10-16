@@ -1,0 +1,145 @@
+body {
+  max-width: 1440px;
+  position: relative;
+  font-family: "Barlow Condensed", sans-serif;
+  margin: 0;
+}
+
+.cuadro-fondo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  width: 50%;
+  height: 500px;
+  background-color: #eef3f6;
+  border-bottom-left-radius: 20%;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 200px;
+  width: 78%;
+}
+
+header .menu {
+  width: 420px;
+}
+
+header .menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .menu ul li {
+  list-style: none;
+}
+
+.login {
+  padding-left: 40px;
+}
+
+header .menu ul li a {
+  text-decoration: none;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #242942;
+}
+
+.contenedor {
+  position: relative;
+  display: flex;
+}
+
+.contenedor .texto {
+  width: 40%;
+  margin-left: 11.5%;
+  margin-top: 100px;
+}
+
+.contenedor .texto .texto-inicio {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.contenedor .texto .texto-inicio .texto-inicio-boton {
+  background-color: #242942;
+  border-radius: 15px;
+}
+
+.contenedor .texto .texto-inicio .texto-inicio-boton p {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 3px 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contenedor .texto .texto-inicio .monograph {
+  color: #a0a1ac;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 4px;
+  margin-left: 15px;
+}
+
+.contenedor .texto h1 {
+  color: #242942;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 64px;
+  text-transform: uppercase;
+  margin: 15px 0;
+  line-height: 1;
+}
+
+.contenedor .texto .descripcion {
+  width: 280px;
+  margin-top: 32px;
+  color: #5b5f71;
+  font-size: 22.5px;
+  line-height: 1.5;
+}
+
+.contenedor .texto .footer {
+  display: flex;
+  margin-top: 40px;
+}
+
+.contenedor .texto .footer button {
+  width: 180px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff5c5c;
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+}
+
+.contenedor .texto .footer p {
+  color: #a0a1ac;
+  text-transform: uppercase;
+  margin-left: 30px;
+  letter-spacing: 4px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+}
+
+.imagen-principal {
+  position: absolute;
+  width: 66%;
+  right: -250px;
+  top: 60px;
+}
